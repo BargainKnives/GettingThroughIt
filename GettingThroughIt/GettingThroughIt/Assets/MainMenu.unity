@@ -150,14 +150,14 @@ RectTransform:
   m_GameObject: {fileID: 155890188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.4175105, y: 1.3906244, z: 2.4175105}
+  m_LocalScale: {x: 2.1500099, y: 1.23675, z: 2.1500099}
   m_Children: []
   m_Father: {fileID: 999233486}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: 92}
+  m_AnchoredPosition: {x: 93, y: 94}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &155890190
@@ -182,11 +182,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8ff06dc09271560428fdaac03f84676e, type: 3}
-    m_FontSize: 40
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 64
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 1
     m_RichText: 1
@@ -489,7 +489,7 @@ RectTransform:
   m_GameObject: {fileID: 1120632820}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.4214, y: 1.4214, z: 1.4214}
+  m_LocalScale: {x: 1.6429962, y: 1.6429962, z: 1.6429962}
   m_Children:
   - {fileID: 1684677769}
   m_Father: {fileID: 999233486}
@@ -497,7 +497,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -123.1, y: -22.1}
+  m_AnchoredPosition: {x: -162, y: -22.1}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1120632822
@@ -658,7 +658,7 @@ RectTransform:
   m_GameObject: {fileID: 1580544717}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9880391, y: 0.8277989, z: 0.9880391}
   m_Children: []
   m_Father: {fileID: 1684677769}
   m_RootOrder: 0
@@ -689,10 +689,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: e90e8fc7b25cbcb43aa15e35344fe3e2, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -701,7 +701,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Play game
 --- !u!222 &1580544720
 CanvasRenderer:
   m_ObjectHideFlags: 0
