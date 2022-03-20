@@ -59,7 +59,7 @@ public class Control : MonoBehaviour
         {
             End();
         }
-       
+        myAud.PlayOneShot (hits [Random.Range(0, hits.Length)]);
 
     }
     void OnCollisionStay(Collision col)
