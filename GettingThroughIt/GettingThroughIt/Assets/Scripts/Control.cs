@@ -55,7 +55,7 @@ public class Control : MonoBehaviour
     {
         isGrounded = true;
 
-        if (col.gameObject.tag == "Switch")
+        if (col.gameObject.tag == "Player")
         {
             End();
         }
