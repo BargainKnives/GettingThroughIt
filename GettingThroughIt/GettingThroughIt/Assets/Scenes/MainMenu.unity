@@ -917,7 +917,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelChanger
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6874055690526052911, guid: 289dc4324a4022d48aa6d86a5796bf6f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6874055690526052913, guid: 289dc4324a4022d48aa6d86a5796bf6f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6874055690600675012, guid: 289dc4324a4022d48aa6d86a5796bf6f, type: 3}
+      propertyPath: pauseMenuUI
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6874055690600675012, guid: 289dc4324a4022d48aa6d86a5796bf6f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 289dc4324a4022d48aa6d86a5796bf6f, type: 3}
 --- !u!1001 &1104221234
 PrefabInstance:

@@ -12,12 +12,6 @@ ScriptsOnlyBuild:
     - UB.Simple2dWeatherEffects.Standard.D2FogsPE
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -78,29 +72,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1450}
     - Class: 114
-      Script: {instanceID: 1496}
+      Script: {instanceID: 1494}
     - Class: 114
-      Script: {instanceID: 1678}
+      Script: {instanceID: 1676}
     - Class: 114
-      Script: {instanceID: 1774}
+      Script: {instanceID: 1772}
     - Class: 114
-      Script: {instanceID: 2298}
+      Script: {instanceID: 2294}
     - Class: 114
-      Script: {instanceID: 2310}
+      Script: {instanceID: 2306}
     - Class: 114
-      Script: {instanceID: 2588}
+      Script: {instanceID: 2418}
     - Class: 114
-      Script: {instanceID: 2804}
+      Script: {instanceID: 2584}
     - Class: 114
-      Script: {instanceID: 2860}
+      Script: {instanceID: 2766}
     - Class: 114
-      Script: {instanceID: 3510}
+      Script: {instanceID: 2800}
     - Class: 114
-      Script: {instanceID: 4076}
+      Script: {instanceID: 2856}
     - Class: 114
-      Script: {instanceID: 4344}
+      Script: {instanceID: 3506}
     - Class: 114
-      Script: {instanceID: 4438}
+      Script: {instanceID: 4072}
+    - Class: 114
+      Script: {instanceID: 4340}
+    - Class: 114
+      Script: {instanceID: 4434}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -159,27 +157,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1450}
     - Class: 114
-      Script: {instanceID: 1496}
+      Script: {instanceID: 1494}
     - Class: 114
-      Script: {instanceID: 1678}
+      Script: {instanceID: 1676}
     - Class: 114
-      Script: {instanceID: 1814}
+      Script: {instanceID: 1812}
     - Class: 114
-      Script: {instanceID: 2298}
+      Script: {instanceID: 2294}
     - Class: 114
-      Script: {instanceID: 2310}
+      Script: {instanceID: 2306}
     - Class: 114
-      Script: {instanceID: 2422}
+      Script: {instanceID: 2418}
     - Class: 114
-      Script: {instanceID: 2588}
+      Script: {instanceID: 2584}
     - Class: 114
-      Script: {instanceID: 2770}
+      Script: {instanceID: 2766}
     - Class: 114
-      Script: {instanceID: 2804}
+      Script: {instanceID: 2800}
     - Class: 114
-      Script: {instanceID: 2860}
+      Script: {instanceID: 2856}
     - Class: 114
-      Script: {instanceID: 3170}
+      Script: {instanceID: 3166}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -289,12 +287,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: GroupTrack
-  - hash:
-      serializedVersion: 2
-      Hash: d835e37be8caf473a0d64dc941f2a2a8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SettingsMenu
   - hash:
       serializedVersion: 2
       Hash: 800c50acba124432abb4cf0d47202e06
